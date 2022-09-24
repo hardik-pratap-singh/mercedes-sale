@@ -1,0 +1,193 @@
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 30px;
+
+        font-family:Georgia, 'Times New Roman', Times, serif ; 
+        background-color: #88c197;
+      }
+
+      .big {
+        display: flex;
+        justify-content: center;
+        width: 550px;
+        height: 800px;
+        /* border: 2px solid red; */
+        align-items: center;
+        background-color: rgba(250, 128, 114, 0.47);
+        border-radius: 12px ;
+
+        
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 500px;
+        /* border: 2px solid red; */
+        height: 750px;
+        color: white;
+
+        background-color: white;
+        box-shadow: -15px 15px 10px rgb(193, 189, 189);
+        border-radius: 12px ;
+
+      }
+
+      #img-1 {
+        width: 500px;
+        height: 300px;
+      }
+      .lower {
+        background-color: green;
+        height: 450px;
+
+       border-radius: 12px ;
+      }
+
+      #btn-1 {
+        margin-left: 9px;
+        margin-top: 9px;
+        border-radius: 10px;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        font-size: 14px;
+        padding: 5px 15px;
+      }
+
+      img {
+        width: 30px;
+        height: 30px;
+      }
+
+      .list {
+        list-style-type: none;
+        position: relative;
+        left: -32px;
+        font-size: 18px;
+        /* border: 2px solid red ; */
+      }
+
+      .list li span {
+        font-size: 18px;
+      }
+      .innerlist {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        /* display: inline; */
+        position: relative;
+        left: -32px;
+        top: 0px;
+        /* border: 2px solid red ; */
+      }
+
+      .list li {
+        /* border: 2px solid red; */
+        display: flex;
+        align-items: center;
+      }
+      h3 {
+        font-size: 25px;
+        position: relative;
+        left: 11px;
+      }
+
+      .smallbox {
+        height: 30px;
+        width: 30px;
+        border: 2px solid red;
+        /* display: flex; */
+        border-radius: 50%;
+      }
+      .left {
+        /* display: flex; */
+        position: relative;
+        left: 8px;
+        display: flex;
+        width: 120px;
+        justify-content: space-between;
+      }
+      #red {
+        border-color: red;
+        background-color: red;
+        cursor: pointer;
+      }
+      #grey {
+        border-color: grey;
+        background-color: grey;
+        cursor: pointer;
+      }
+      #black {
+        border-color: black;
+        background-color: black;
+        cursor: pointer;
+      }
+      .block {
+        display: flex;
+        /* border: 2px solid red ; */
+        width: 350px;
+        justify-content: space-between;
+        /* flex-direction: c; */
+        align-items: center;
+      }
+
+      .right {
+        font-size: 20px;
+      }
+
+      .ul1 {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .lowerblock {
+        width: 178px;
+        /* border: 2px solid black; */
+        /* margin: auto; */
+        margin-left: 30px0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 40px;
+        margin-top: 15px;
+        margin-left: 8px;
+        background-color: black;
+        color: white;
+
+        border-radius: 20px;
+        cursor: pointer;
+        /* margin: auto; */
+      }
+
+      .dim {
+        width: 500px;
+        height: 300px;
+      }
+
+      .ul1 {
+        list-style-type: none;
+        width: 170px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: -37px;
+        /* margin-top: +35px; */
+      }
+
+      span {
+        font-size: 16px;
+        margin-left: 10px;
+      }
+
+      .ul2 li{
+        list-style:  none ;
+      }
+      .ul2{
+        display: flex;
+      }

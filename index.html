@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select Page</title>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    <div class="big">
+      <div class="container">
+        <img id="img-1" src="m-black.png" alt="Black Mercedes" />
+        <div class="lower">
+          <button id="btn-1">CAR</button>
+
+          <h3 id = "nameofcar">Mercedez Benz C-300 2022</h3>
+          <ul class="list">
+            <li>
+              <img src="icon-car.png" alt="car" /><span
+                >Mileage: 4,000 miles</span
+              >
+            </li>
+            <li>
+              <img src="fuel-logo.webp" alt="fuel" /><span>Fuel: 25mpg</span>
+            </li>
+            <li>
+              <img src="shield-logo.png" alt="shield" />
+              <span>Safety:</span>
+              <ul class="innerlist">
+                <li><img src="star1.png" alt="star" /></li>
+                <li><img src="star1.png" alt="star" /></li>
+                <li><img src="star1.png" alt="star" /></li>
+                <li><img src="star1.png" alt="star" /></li>
+                <li><img src="star1.png" alt="star" /></li>
+              </ul>
+            </li>
+          </ul>
+
+          <h3>Pick a color:</h3>
+          <!-- <br /><br /> -->
+
+          <div class="block">
+            <div class="left">
+              <div id="red" onclick="funcred()" class="smallbox"></div>
+              <div id="grey" onclick="funcgrey()" class="smallbox"></div>
+              <div id="black" onclick="funcblack()" class="smallbox"></div>
+            </div>
+
+            <div class="right">
+                <ul class = "ul2">
+                    <li>$ 134,450</li>
+                    <li><span><strike>$ 140,500</strike></span></li>
+                </ul>
+            </div>
+          </div>
+          <div id="lowerblk" onclick = "addtocart()" class="lowerblock">
+            <ul id = "ull" class="ul1">
+              <li><img src="add-white.png" alt="addtocart" /></li>
+              <li>Add To Cart</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
